@@ -81,8 +81,8 @@ class DashboardView : View {
         Log.d("Dashboard","radians: ${Math.toRadians((startAngle + angleOffset * 0).toDouble())}")
         canvas.drawLine(
             width / 2f, height / 2f,
-            width / 2f + 100f.px * sin(Math.toRadians((startAngle + angleOffset * 0).toDouble()).toFloat()),
-            height / 2f + 100f.px * cos(Math.toRadians((startAngle + angleOffset * 0).toDouble()).toFloat()),
+            width / 2f + 100f.px * cos(Math.toRadians((startAngle + angleOffset * 8).toDouble()).toFloat()),
+            height / 2f + 100f.px * sin(Math.toRadians((startAngle + angleOffset * 8).toDouble()).toFloat()),
             paint
         )
 
