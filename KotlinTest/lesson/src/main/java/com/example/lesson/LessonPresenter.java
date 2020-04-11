@@ -1,8 +1,10 @@
 package com.example.lesson;
 
-import com.example.core.utils.Utils;
+import android.widget.Toast;
+
 import com.example.core.http.EntityCallback;
 import com.example.core.http.HttpClient;
+import com.example.core.utils.UtilsKt;
 import com.example.lesson.entity.Lesson;
 import com.google.gson.reflect.TypeToken;
 
@@ -46,7 +48,7 @@ class LessonPresenter {
                 activity.runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        Utils.toast(message);
+                        UtilsKt.toast(message, Toast.LENGTH_LONG);
                     }
                 });
             }
