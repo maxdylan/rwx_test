@@ -10,11 +10,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         btnDashboard.setOnClickListener {
-            // todo 跳转到仪表盘
+            // 跳转到仪表盘
             startActivity(Intent(this,DashboardActivity::class.java))
         }
         btnPie.setOnClickListener {
-            // todo 跳转到饼图
+            // 跳转到饼图
+            startActivity(Intent(this,PieActivity::class.java))
         }
     }
 }
