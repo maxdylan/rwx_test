@@ -3,4 +3,5 @@
     <string name="custom_title">自定义View</string>
     <string name="dash_board_title">仪表盘</string>
     <string name="pie_title">饼图</string>
+    <string name="xfer_title">圆形头像</string>
 </resources>

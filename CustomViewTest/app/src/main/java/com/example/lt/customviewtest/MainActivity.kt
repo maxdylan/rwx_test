@@ -17,5 +17,9 @@ class MainActivity : AppCompatActivity() {
             // 跳转到饼图
             startActivity(Intent(this,PieActivity::class.java))
         }
+        btnXfer.setOnClickListener {
+            // 跳转到圆形头像
+            startActivity(Intent(this,AvatorActivity::class.java))
+        }
     }
 }
