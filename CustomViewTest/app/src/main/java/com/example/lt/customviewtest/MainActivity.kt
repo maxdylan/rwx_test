@@ -21,5 +21,13 @@ class MainActivity : AppCompatActivity() {
             // 跳转到圆形头像
             startActivity(Intent(this,AvatorActivity::class.java))
         }
+        btnTextCenter.setOnClickListener {
+            // 跳转到文字居中
+            startActivity(Intent(this, TextCenterActivity::class.java))
+        }
+        btnTextImg.setOnClickListener {
+            // 跳转到图文混排
+            startActivity(Intent(this, TextImgActivity::class.java))
+        }
     }
 }
