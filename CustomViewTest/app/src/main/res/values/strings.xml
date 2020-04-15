@@ -6,4 +6,5 @@
     <string name="xfer_title">圆形头像</string>
     <string name="text_center_title">文字居中</string>
     <string name="text_img_title">图文混排</string>
+    <string name="camera_title">范围裁切</string>
 </resources>
