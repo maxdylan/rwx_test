@@ -1,7 +1,8 @@
-package com.example.lt.customviewtest
+package com.example.lt.customviewtest.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.lt.customviewtest.R
 
 class CameraActivity : AppCompatActivity() {
 

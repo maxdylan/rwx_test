@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AvatorActivity">
+    tools:context=".activity.AvatorActivity">
 
     <com.example.lt.customviewtest.view.AvatorView
         android:layout_width="match_parent"

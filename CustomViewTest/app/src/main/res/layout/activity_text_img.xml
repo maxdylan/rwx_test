@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TextImgActivity">
+    tools:context=".activity.TextImgActivity">
 
     <com.example.lt.customviewtest.view.TextImgView
         android:layout_width="match_parent"

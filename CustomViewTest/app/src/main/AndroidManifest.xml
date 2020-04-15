@@ -9,12 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CameraActivity"></activity>
-        <activity android:name=".TextImgActivity" />
-        <activity android:name=".TextCenterActivity" />
-        <activity android:name=".AvatorActivity" />
-        <activity android:name=".PieActivity" />
-        <activity android:name=".DashboardActivity" />
+        <activity android:name=".activity.CameraActivity"></activity>
+        <activity android:name=".activity.TextImgActivity" />
+        <activity android:name=".activity.TextCenterActivity" />
+        <activity android:name=".activity.AvatorActivity" />
+        <activity android:name=".activity.PieActivity" />
+        <activity android:name=".activity.DashboardActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,12 +1,13 @@
-package com.example.lt.customviewtest
+package com.example.lt.customviewtest.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.lt.customviewtest.R
 
-class PieActivity : AppCompatActivity() {
+class TextImgActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pie)
+        setContentView(R.layout.activity_text_img)
     }
 }
