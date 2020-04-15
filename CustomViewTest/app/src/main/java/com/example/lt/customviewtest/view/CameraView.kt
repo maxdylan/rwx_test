@@ -13,7 +13,7 @@ class CameraView(context: Context, attrs: AttributeSet?) : View(context, attrs) 
     private val paint = Paint(Paint.ANTI_ALIAS_FLAG)
     private val camera = Camera().apply {
         rotateX(30f)
-        setLocation(0f,0f,-4f*resources.displayMetrics.density)
+        setLocation(0f,0f,-6f*resources.displayMetrics.density)
     }
 
     override fun onDraw(canvas: Canvas) {
@@ -61,10 +61,10 @@ class CameraView(context: Context, attrs: AttributeSet?) : View(context, attrs) 
     private fun getAvatar(width:Int):Bitmap{
         val options = BitmapFactory.Options()
         options.inJustDecodeBounds = true
-        BitmapFactory.decodeResource(resources, R.drawable.timg, options)
+        BitmapFactory.decodeResource(resources, R.drawable.squire, options)
         options.inJustDecodeBounds = false
         options.inDensity = max(options.outWidth,options.outHeight)
         options.inTargetDensity = width
-        return BitmapFactory.decodeResource(resources,R.drawable.timg,options)
+        return BitmapFactory.decodeResource(resources,R.drawable.squire,options)
     }
 }
