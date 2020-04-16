@@ -17,6 +17,7 @@ class AnimatorActivity : AppCompatActivity() {
         }
         btnFlipAnimator.setOnClickListener {
             // 跳转到翻折动画
+            startActivity(Intent(this, FlipAnimatorActivity::class.java))
         }
         btnTextAnimator.setOnClickListener {
             // 跳转到文字动画
