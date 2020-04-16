@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.FlipAnimatorActivity"></activity>
+        <activity android:name=".activity.StringAnimatorActivity"></activity>
+        <activity android:name=".activity.FlipAnimatorActivity" />
         <activity android:name=".activity.ScaleCircleAnimActivity" />
         <activity android:name=".activity.AnimatorActivity" />
         <activity android:name=".activity.CameraActivity" />

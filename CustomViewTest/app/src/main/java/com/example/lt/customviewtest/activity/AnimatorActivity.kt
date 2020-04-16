@@ -21,6 +21,7 @@ class AnimatorActivity : AppCompatActivity() {
         }
         btnTextAnimator.setOnClickListener {
             // 跳转到文字动画
+            startActivity(Intent(this, StringAnimatorActivity::class.java))
         }
         btnMovePointAnimator.setOnClickListener {
             // 跳转点移动动画
