@@ -25,6 +25,7 @@ class AnimatorActivity : AppCompatActivity() {
         }
         btnMovePointAnimator.setOnClickListener {
             // 跳转点移动动画
+            startActivity(Intent(this, PointAnimatorActivity::class.java))
         }
     }
 }
