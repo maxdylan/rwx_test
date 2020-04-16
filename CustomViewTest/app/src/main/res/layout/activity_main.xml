@@ -70,10 +70,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnCamera"
+        android:layout_marginTop="10dp"
         android:text="@string/camera_title"
         app:layout_constraintTop_toBottomOf="@+id/btnTextImg"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAnimator"
+        android:text="@string/animator_title"
+        app:layout_constraintTop_toBottomOf="@+id/btnCamera"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

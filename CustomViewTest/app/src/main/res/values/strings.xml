@@ -7,4 +7,9 @@
     <string name="text_center_title">文字居中</string>
     <string name="text_img_title">图文混排</string>
     <string name="camera_title">范围裁切</string>
+    <string name="animator_title">属性动画</string>
+    <string name="scale_circle_animator_title">缩放圆动画</string>
+    <string name="flip_anim_title">翻折动画</string>
+    <string name="text_anim_title">文字动画</string>
+    <string name="move_point_title">点移动动画</string>
 </resources>

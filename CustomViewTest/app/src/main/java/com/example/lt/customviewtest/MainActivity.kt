@@ -37,5 +37,9 @@ class MainActivity : AppCompatActivity() {
             // 跳转到范围裁切和几何变换
             startActivity(Intent(this, CameraActivity::class.java))
         }
+        btnAnimator.setOnClickListener {
+            // 跳转到属性动画
+            startActivity(Intent(this, AnimatorActivity::class.java))
+        }
     }
 }
