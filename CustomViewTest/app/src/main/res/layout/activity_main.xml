@@ -31,9 +31,9 @@
         android:id="@+id/btnPie"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="@string/pie_title"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnDashboard" />
 
@@ -41,8 +41,8 @@
         android:id="@+id/btnXfer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/xfer_title"
         android:layout_marginTop="10dp"
+        android:text="@string/xfer_title"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnPie" />
 
@@ -60,30 +60,49 @@
         android:id="@+id/btnTextImg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/text_img_title"
         android:layout_marginTop="10dp"
+        android:text="@string/text_img_title"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnTextCenter" />
 
     <Button
+        android:id="@+id/btnCamera"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnCamera"
         android:layout_marginTop="10dp"
         android:text="@string/camera_title"
-        app:layout_constraintTop_toBottomOf="@+id/btnTextImg"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/btnTextImg" />
 
     <Button
+        android:id="@+id/btnAnimator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnAnimator"
+        android:layout_marginTop="10dp"
         android:text="@string/animator_title"
-        app:layout_constraintTop_toBottomOf="@+id/btnCamera"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="10dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCamera" />
 
+    <Button
+        android:id="@+id/btnMaterialEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/materialedittext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAnimator" />
+
+    <Button
+        android:id="@+id/btnCustomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="自定义布局"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMaterialEditText" />
 </androidx.constraintlayout.widget.ConstraintLayout>

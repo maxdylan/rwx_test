@@ -3,6 +3,7 @@ package com.example.lt.customviewtest
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.PersistableBundle
 import com.example.lt.customviewtest.activity.*
 import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
@@ -41,5 +42,10 @@ class MainActivity : AppCompatActivity() {
             // 跳转到属性动画
             startActivity(Intent(this, AnimatorActivity::class.java))
         }
+        btnMaterialEditText.setOnClickListener {
+            // 跳转到MaterialEditText
+            startActivity(Intent(this, MaterialEditTextActivity::class.java))
+        }
     }
+
 }
