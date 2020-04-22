@@ -46,6 +46,9 @@ class MainActivity : AppCompatActivity() {
             // 跳转到MaterialEditText
             startActivity(Intent(this, MaterialEditTextActivity::class.java))
         }
+        btnCustomLayout.setOnClickListener {
+            startActivity(Intent(this,CustomLayoutActivity::class.java))
+        }
     }
 
 }

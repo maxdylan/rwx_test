@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.lt.customviewtest.view.TabLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CustomLayoutActivity">
+
+    <com.example.lt.customviewtest.view.RandomColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="蒸羊羔" />
+    <com.example.lt.customviewtest.view.RandomColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="蒸熊掌吧" />
+    <com.example.lt.customviewtest.view.RandomColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="蒸鹿尾" />
+    <com.example.lt.customviewtest.view.RandomColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="烧花鸭" />
+    <com.example.lt.customviewtest.view.RandomColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="烧雏鸡" />
+    <com.example.lt.customviewtest.view.RandomColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="雏鸡" />
+    <com.example.lt.customviewtest.view.RandomColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="蒸羊羔" />
+    <com.example.lt.customviewtest.view.RandomColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="蒸熊掌吧" />
+    <com.example.lt.customviewtest.view.RandomColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="蒸鹿尾" />
+    <com.example.lt.customviewtest.view.RandomColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="烧花鸭" />
+    <com.example.lt.customviewtest.view.RandomColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="烧雏鸡" />
+    <com.example.lt.customviewtest.view.RandomColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="雏鸡" />
+    <com.example.lt.customviewtest.view.RandomColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="蒸羊羔" />
+    <com.example.lt.customviewtest.view.RandomColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="蒸熊掌吧" />
+    <com.example.lt.customviewtest.view.RandomColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="蒸鹿尾" />
+    <com.example.lt.customviewtest.view.RandomColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="烧花鸭" />
+    <com.example.lt.customviewtest.view.RandomColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="烧雏鸡" />
+    <com.example.lt.customviewtest.view.RandomColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="雏鸡" />
+
+</com.example.lt.customviewtest.view.TabLayout>
