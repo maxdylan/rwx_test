@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.CustomLayoutActivity"></activity>
+        <activity android:name=".activity.CustomLayoutActivity"/>
+        <activity android:name=".activity.TabLayoutActivity" />
+        <activity android:name=".activity.SquareImgActivity" />
         <activity android:name=".activity.MaterialEditTextActivity" />
         <activity android:name=".activity.PointAnimatorActivity" />
         <activity android:name=".activity.StringAnimatorActivity" />
@@ -22,6 +24,7 @@
         <activity android:name=".activity.AvatorActivity" />
         <activity android:name=".activity.PieActivity" />
         <activity android:name=".activity.DashboardActivity" />
+        <activity android:name=".activity.FixCircleActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
