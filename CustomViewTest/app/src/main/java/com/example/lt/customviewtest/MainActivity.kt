@@ -49,6 +49,9 @@ class MainActivity : AppCompatActivity() {
         btnCustomLayout.setOnClickListener {
             startActivity(Intent(this,CustomLayoutActivity::class.java))
         }
+        btnTouchDemo.setOnClickListener {
+            startActivity(Intent(this, TouchDemoActivity::class.java))
+        }
     }
 
 }
