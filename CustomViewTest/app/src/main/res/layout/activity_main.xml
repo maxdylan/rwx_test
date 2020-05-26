@@ -113,4 +113,12 @@
         android:layout_marginTop="10dp"
         android:text="触摸反馈"
         app:layout_constraintTop_toBottomOf="@+id/btnCustomLayout" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMotion"
+        android:layout_marginTop="10dp"
+        android:text="触摸反馈"
+        app:layout_constraintTop_toBottomOf="@+id/btnTouchDemo" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

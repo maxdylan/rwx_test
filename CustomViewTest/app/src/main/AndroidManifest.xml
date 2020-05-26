@@ -27,6 +27,7 @@
         <activity android:name=".activity.FixCircleActivity" />
         <activity android:name=".activity.TouchDemoActivity" />
         <activity android:name=".activity.ScalableImageVIewActivity" />
+        <activity android:name=".activity.MotionActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

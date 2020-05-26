@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
         }
         btnAnimator.setOnClickListener {
             // 跳转到属性动画
+//            startActivity(Intent(this,MotionActivity::class.java))
             startActivity(Intent(this, AnimatorActivity::class.java))
         }
         btnMaterialEditText.setOnClickListener {
@@ -51,6 +52,9 @@ class MainActivity : AppCompatActivity() {
         }
         btnTouchDemo.setOnClickListener {
             startActivity(Intent(this, TouchDemoActivity::class.java))
+        }
+        btnMotion.setOnClickListener {
+            startActivity(Intent(this,MotionActivity::class.java))
         }
     }
 
