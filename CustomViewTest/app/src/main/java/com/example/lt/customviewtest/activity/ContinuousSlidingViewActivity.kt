@@ -4,10 +4,9 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.lt.customviewtest.R
 
-class ScalableImageViewActivity:AppCompatActivity() {
+class ContinuousSlidingViewActivity:AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_scalable_imageview)
-
+        setContentView(R.layout.activity_continuous_sliding)
     }
 }

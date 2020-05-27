@@ -11,7 +11,10 @@ class TouchDemoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_touch_demo)
         btnScalableImageView.setOnClickListener{
-            startActivity(Intent(this,ScalableImageVIewActivity::class.java))
+            startActivity(Intent(this,ScalableImageViewActivity::class.java))
+        }
+        btnContinuousSlidingView.setOnClickListener {
+            startActivity(Intent(this, ContinuousSlidingViewActivity::class.java))
         }
     }
 }

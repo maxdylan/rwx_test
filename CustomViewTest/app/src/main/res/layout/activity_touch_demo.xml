@@ -21,4 +21,14 @@
         android:id="@+id/btnScalableImageView"
         android:text="缩放图片" />
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnContinuousSlidingView"
+        android:text="多点连续滑动图片" />
+
 </LinearLayout>
