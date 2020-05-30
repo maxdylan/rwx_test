@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.lt.customviewtest.view.TwoPagerView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:text="page 1"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:text="page 2"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:gravity="center" />
+</com.example.lt.customviewtest.view.TwoPagerView>

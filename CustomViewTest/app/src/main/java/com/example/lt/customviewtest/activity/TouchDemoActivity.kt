@@ -22,5 +22,8 @@ class TouchDemoActivity : AppCompatActivity() {
         btnDrawingBoardView.setOnClickListener {
             startActivity(Intent(this, DrawingBoardViewActivity::class.java))
         }
+        btnTwoPager.setOnClickListener {
+            startActivity(Intent(this, TwoPagerActivity::class.java))
+        }
     }
 }

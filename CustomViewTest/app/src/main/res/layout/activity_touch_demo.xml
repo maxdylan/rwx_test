@@ -50,5 +50,15 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnDrawingBoardView"
         android:text="画板" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnTwoPager"
+        android:text="ViewPager" />
+
 
 </LinearLayout>
