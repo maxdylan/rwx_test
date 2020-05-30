@@ -18,23 +18,55 @@ class ContinuousSlidingView(context: Context?, attrs: AttributeSet?) : View(cont
     private val paint = Paint(Paint.ANTI_ALIAS_FLAG)
 
     private var currentPointerIndex = 0
+    private var originX = 0f
     private var originY = 0f
-    private var currentY = 0f
+
+    private var downX = 0f
+    private var downY = 0f
+
+    private var offsetX = 0f
+    private var offsetY = 0f
+
+    private var tracePointId = 0
 
     override fun onTouchEvent(event: MotionEvent): Boolean {
         when (event.actionMasked) {
-            MotionEvent.ACTION_DOWN->{
-                currentPointerIndex = event.findPointerIndex(event.actionIndex)
-                originY = event.getY(currentPointerIndex)
+            MotionEvent.ACTION_DOWN, MotionEvent.ACTION_POINTER_DOWN -> {
+                tracePointId = event.getPointerId(event.actionIndex)
+                downX = event.getX(event.actionIndex)
+                downY = event.getY(event.actionIndex)
+
+                originX = offsetX
+                originY = offsetY
             }
 
-            MotionEvent.ACTION_POINTER_DOWN->{
-                currentPointerIndex = event.findPointerIndex(event.actionIndex)
-                originY = event.getY(currentPointerIndex)
+            MotionEvent.ACTION_POINTER_UP -> {
+                val currentId = event.getPointerId(event.actionIndex)
+                val traceIndex = event.findPointerIndex(tracePointId)
+
+                if (currentId == tracePointId) {
+                    // 只有在抬起手指是活动手指时候，才有关心的必要
+
+                    val newIndex = if (traceIndex == event.pointerCount - 1) {
+                        event.pointerCount -2
+                    }else{
+                        event.pointerCount -1
+                    }
+
+                    tracePointId = event.findPointerIndex(newIndex)
+
+                    downX = event.getX(newIndex)
+                    downY = event.getY(newIndex)
+
+                    originX = offsetX
+                    originY = offsetY
+                }
+
             }
 
-            MotionEvent.ACTION_MOVE->{
-                currentY = event.getY(currentPointerIndex)
+            MotionEvent.ACTION_MOVE -> {
+                offsetX = event.getX(event.findPointerIndex(tracePointId)) - downX + originX
+                offsetY = event.getY(event.findPointerIndex(tracePointId)) - downY + originY
                 invalidate()
             }
         }
@@ -43,10 +75,7 @@ class ContinuousSlidingView(context: Context?, attrs: AttributeSet?) : View(cont
 
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
-        translationY += currentY - originY
-        canvas.drawBitmap(bitmap, width / 2 - 100f.px, translationY, paint)
-
-
+        canvas.drawBitmap(bitmap, offsetX, offsetY, paint)
     }
 
     private fun getAvatar(width: Int): Bitmap {
