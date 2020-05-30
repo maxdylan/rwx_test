@@ -16,5 +16,8 @@ class TouchDemoActivity : AppCompatActivity() {
         btnContinuousSlidingView.setOnClickListener {
             startActivity(Intent(this, ContinuousSlidingViewActivity::class.java))
         }
+        btnCooperationSlidingView.setOnClickListener {
+            startActivity(Intent(this, CooperationSlidingViewActivity::class.java))
+        }
     }
 }
