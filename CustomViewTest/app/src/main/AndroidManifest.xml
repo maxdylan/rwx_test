@@ -30,6 +30,7 @@
         <activity android:name=".activity.MotionActivity" />
         <activity android:name=".activity.ContinuousSlidingViewActivity" />
         <activity android:name=".activity.CooperationSlidingViewActivity" />
+        <activity android:name=".activity.DrawingBoardViewActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
