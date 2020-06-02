@@ -25,5 +25,8 @@ class TouchDemoActivity : AppCompatActivity() {
         btnTwoPager.setOnClickListener {
             startActivity(Intent(this, TwoPagerActivity::class.java))
         }
+        btnDragHelper.setOnClickListener {
+            startActivity(Intent(this, DragHelperActivity::class.java))
+        }
     }
 }
