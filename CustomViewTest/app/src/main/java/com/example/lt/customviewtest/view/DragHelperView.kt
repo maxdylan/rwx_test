@@ -77,6 +77,7 @@ class DragHelperView(context: Context?, attrs: AttributeSet?) : ViewGroup(contex
         }
     }
 
+    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     override fun computeScroll() {
         super.computeScroll()
         if (dragHelper.continueSettling(true)) {
