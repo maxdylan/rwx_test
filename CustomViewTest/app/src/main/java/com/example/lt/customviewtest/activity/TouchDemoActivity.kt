@@ -28,5 +28,8 @@ class TouchDemoActivity : AppCompatActivity() {
         btnDragHelper.setOnClickListener {
             startActivity(Intent(this, DragHelperActivity::class.java))
         }
+        btnDragListener.setOnClickListener {
+            startActivity(Intent(this, DragListenerActivity::class.java))
+        }
     }
 }

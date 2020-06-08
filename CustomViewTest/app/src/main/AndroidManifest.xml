@@ -33,6 +33,7 @@
         <activity android:name=".activity.DrawingBoardViewActivity" />
         <activity android:name=".activity.TwoPagerActivity" />
         <activity android:name=".activity.DragHelperActivity" />
+        <activity android:name=".activity.DragListenerActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
